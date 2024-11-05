@@ -1,0 +1,18 @@
+{
+    "tesco": {
+        "main_http": "https://potravinydomov.itesco.sk/groceries/sk-SK/shop/",
+        "links": [
+            "mliecne-vyrobky-a-vajcia", "ovocie-zelenina-a-kvety", "pecivo",
+            "maso-ryby-a-lahodky", "trvanlive-potraviny", "specialna-a-zdrava-vyziva",
+            "mrazene-potraviny", "napoje", "alkohol", "starostlivost-o-domacnost",
+            "zdravie-a-krasa", "starostlivost-o-dieta", "chovatelske-potreby",
+            "domov-a-zabava", "oblecenie-a-moda"
+        ],
+        "suffix": "all?page="
+    },
+    "another_site": {
+        "main_http": "https://another-site.com/categories/",
+        "links": ["electronics", "clothing", "home-garden"],
+        "suffix": "?page="
+    }
+}
