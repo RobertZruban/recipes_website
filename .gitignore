@@ -174,3 +174,5 @@ dist
 *env
 *.env
 *cache*
+
+*src/recipes_website/config/credentials.json

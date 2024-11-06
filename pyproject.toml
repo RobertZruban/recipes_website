@@ -8,20 +8,20 @@ recipes_website = ["*.json"]
 
 [project]
 name = "recipes_website"
-authors = [{ name = "Eric Riddoch", email = "some-email@gmail.com" }]
-description = "My package description"
+authors = [{ name = "robert zruban", email = "zrubanrobert@gmail.com" }]
+description = "My package"
 readme = "README.md"
 requires-python = ">=3.7"
 keywords = ["one", "two"]
 license = { text = "MIT" }
 classifiers = ["Programming Language :: Python :: 3"]
 dependencies = [
-    "selenium",
-    "chromedriver_autoinstaller",
-    "numpy",
-    "pandas",
-    "beautifulsoup4",
-    'importlib-metadata; python_version<"3.8"',
+    # "selenium",
+    # "chromedriver_autoinstaller",
+    # "numpy",
+    # "pandas",
+    # "beautifulsoup4",
+    # 'importlib-metadata; python_version<"3.8"',
 ]
 dynamic = ["version"]
 
@@ -40,7 +40,7 @@ markers = ["slow: marks tests as slow (deselect with '-m \"not slow\"')"]
 
 [tool.black]
 line-length = 119
-exclude = ["venv"]
+# exclude = ["venv"]
 
 [tool.flake8]
 docstring-convention = "all"
